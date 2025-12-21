@@ -24,7 +24,7 @@ const projectsData = [
     subtitle: 'Code Hills',
     text: 'Interactive Business Portfolio displaying Company work.',
     category: 'REACT',
-    link: '#',
+    link: 'https://codehills.vercel.app/',
   },
   
   {
