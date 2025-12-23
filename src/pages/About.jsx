@@ -125,7 +125,7 @@ function About() {
                 <div className="text-[14px] text-[#cccccc]">Happy Clients</div>
               </div>
               <div className="about-reveal rounded-[10px] border border-white/10 bg-white/5 p-5">
-                <div className="text-[24px] text-[#FFFFFF]">8</div>
+                <div className="text-[24px] text-[#FFFFFF]">4</div>
                 <div className="text-[14px] text-[#cccccc]">Years Experience</div>
               </div>
               <div className="about-reveal rounded-[10px] border border-white/10 bg-white/5 p-5">
