@@ -66,6 +66,18 @@ function Contact() {
 
   return (
     <div className="relative z-10 mx-auto mt-[150px] w-[calc(100%-40px)] max-w-[1400px] text-white">
+      {/* Hero */}
+      <section
+        aria-labelledby="services-hero-heading"  // change to about-hero-heading / contact-hero-heading / projects-heading depending on page
+        className="about-banner relative mb-20 h-[400px] overflow-hidden rounded-[20px] border border-white/5 bg-center bg-cover bg-fixed shadow-[0_0_40px_rgba(123,97,255,0.08)] px-6 md:px-20"
+        style={{ backgroundImage: "url('/images/contact-banner.jpg')" }}
+      >
+        <div className="hero-brand">
+          CONTACT
+          <br />
+          US
+        </div>
+      </section>
 
       {/* CONTACT SECTION */}
       <section className="contact-section mb-10 grid gap-10 rounded-[20px] border border-white/5 bg-white/5 px-6 py-12 shadow-[0_0_40px_rgba(123,97,255,0.08)] backdrop-blur-[15px] md:grid-cols-[1.4fr_1fr] md:px-20">
