@@ -377,18 +377,18 @@ function Home() {
                       className="testimonial-card mb-4 rounded-[10px] border border-white/10 bg-white/5 p-4 shadow-[0_0_20px_rgba(123,97,255,0.06)] transition hover:shadow-[0_0_30px_rgba(123,97,255,0.12)] sm:mb-6 sm:p-5 md:mb-[30px] md:p-7"
                     >
                       <div className="testimonial-author text-[16px] sm:text-[17px] md:text-[18px]">
-                        {idx % 2 === 0 ? 'Mohsin Haroon' : 'Fahad Abdul Aziz'}
+                        {idx % 3 === 0 ? 'Mohsin Haroon': idx % 3 === 1 ? 'Fahad Abdul Aziz' : 'Muhammad Fayaz'}
                       </div>
                       <div className="testimonial-author-title text-[13px] text-[#888888] sm:text-[14px]">
-                        {idx % 2 === 0 ? 'CEO, SamarTex' : 'RAAD AL ARABIA, Jeddah'}
+                        {idx % 3 === 0 ? 'CEO, SamarTex' : idx % 3 === 1 ? 'RAAD AL ARABIA, Jeddah' : 'Asia Glory Company'}
                       </div>
                       <div className="stars mb-3 text-[14px] text-[#FFD700] sm:mb-[14px] sm:text-[16px]">
                         5.0 ★★★★
                       </div>
                       <p className="testimonial-text text-[13px] leading-[1.6] text-[#cccccc] sm:text-[14px] sm:leading-[1.75] md:text-[15px]">
-                        {idx % 2 === 0
+                        {idx % 3 === 0
                           ? 'Working with Code Hills to build our eCommerce store was a seamless experience. The team understood our vision perfectly, created a visually stunning and highly functional website, and ensured a smooth checkout process for our customers. Managing products has never been easier. Highly recommended!'
-                          : 'Code Hills delivered an exceptional website for our cold storage business. The site perfectly showcases our services, builds trust with clients, and provides clear information about our facilities. The team was professional, responsive, and attentive to every detail. Our online presence has improved'}
+                          : idx % 3 === 1 ? 'Code Hills delivered an exceptional website for our cold storage business. The site perfectly showcases our services, builds trust with clients, and provides clear information about our facilities. The team was professional, responsive, and attentive to every detail. Our online presence has improved' : 'Code Hills built a modern, responsive, and user-friendly website for us. They understood our needs perfectly, delivered on time, and exceeded our expectations. Highly professional in web development, Do recommend!'}
                       </p>
                     </div>
                   ))}
